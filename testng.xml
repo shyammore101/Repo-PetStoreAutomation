@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="PetStore">
+  <parameter name="petID" value="1"/>
+<parameter name="categoryID"  value="1"/>
+<parameter name="categoryName" value="Hound"/>
+<parameter name="petName"  value="Tommy"/>
+<parameter name="tagID"   value="1"/>
+<parameter name="tagName"   value="abc"/>
+<parameter name="status"  value="available"/>
+<parameter name="photoUrl"  value="https://www.google.com"/>
+<parameter name="quantity"  value="1"/>
+<parameter name="orderStatus"  value="placed"/>
+<parameter name="complete"  value="true"/>
+<parameter name="shipDate"  value="2020-12-31T15:21:08.010+0000"/>
+    <classes>
+      <class name="tests.PetStore"/>
+    </classes>
+  </test> <!-- PetStore -->
+</suite> <!-- Suite -->
